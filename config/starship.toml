@@ -1,0 +1,18 @@
+format = '[>](fg:#ffffff)[>](fg:#8fbc8f) $directory [>](fg:#ffffff)[>](fg:#8fbc8f) [$hostname]($style) [>](fg:#ffffff)$character '
+
+add_newline = false
+
+[hostname]
+ssh_only = false
+style = "fg:#5b825f"
+format = "[$hostname]($style)"
+disabled = false
+
+[directory]
+style = "fg:#5b825f"
+format = "[$path]($style)"
+
+[character]
+success_symbol = "[>](fg:#8fbc8f)"
+error_symbol = "[>](fg:#8fbc8f)"
+format = "$symbol "
