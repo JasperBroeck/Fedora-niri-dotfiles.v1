@@ -1,0 +1,19 @@
+# Global Styling
+font=sans-serif 12
+background-color=#1d1d20e6
+text-color=#ffffffff
+width=320
+height=110
+margin=0,0,10,0
+padding=10
+border-size=4
+border-radius=12
+border-color=#5E5E5EBF
+anchor=top-center
+outer-margin=16
+max-visible=5
+sort=-time
+group-by=none
+
+[urgency=high]
+border-color=#C2410CFF
