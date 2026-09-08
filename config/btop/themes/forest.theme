@@ -1,0 +1,66 @@
+# Main background, empty for terminal background, btop default uses "black"
+theme[main_bg]="#141414"
+
+# Main text color
+theme[main_fg]="#AEAEAE"
+
+# Title color for boxes
+theme[title]="#FFFFFF"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#9e5d28"
+
+# Background color of selected item in processes/menu
+theme[selected_bg]="#5B825F"
+
+# Value color of selected item
+theme[selected_fg]="#FFFFFF"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#5E5E5E"
+
+# Color of text coming from graph lines, process arguments, etc.
+theme[graph_text]="#AEAEAE"
+
+# Misc colors for meters, CPU, etc.
+theme[meter_bg]="#5E5E5E"
+theme[proc_misc]="#8FBC8F"
+
+# CPU/Memory/Disk graph gradients (from normal/low to warning/high)
+theme[cpu_start]="#5B825F"
+theme[cpu_mid]="#8FBC8F"
+theme[cpu_end]="#C2410C"
+
+theme[free_start]="#5B825F"
+theme[free_mid]="#8FBC8F"
+theme[free_end]="#C2410C"
+
+theme[cached_start]="#5B825F"
+theme[cached_mid]="#8FBC8F"
+theme[cached_end]="#C2410C"
+
+theme[available_start]="#5B825F"
+theme[available_mid]="#8FBC8F"
+theme[available_end]="#C2410C"
+
+theme[used_start]="#a68e35"
+theme[used_mid]="#b88437"
+theme[used_end]="#C2410C"
+
+# Download / Upload graph colors
+theme[download_start]="#5B825F"
+theme[download_mid]="#8FBC8F"
+theme[download_end]="#C2410C"
+
+theme[upload_start]="#5B825F"
+theme[upload_mid]="#8FBC8F"
+theme[upload_end]="#C2410C"
+
+# Color of process box and box borders (using your deep forest green)
+theme[cpu_box]="#ffffff"
+theme[mem_box]="#8FBC8F"
+theme[net_box]="#5B825F"
+theme[proc_box]="#5B825F"
+
+# Color of box lines and dividers (using your muted grey)
+theme[div_line]="#5E5E5E"
