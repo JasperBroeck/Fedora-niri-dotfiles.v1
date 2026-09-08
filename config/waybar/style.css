@@ -1,0 +1,83 @@
+* {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+window#waybar {
+    background: transparent;
+    color: #ffffff;
+}
+
+/* Base style for every module inside the pills */
+#cpu,
+#memory,
+#clock,
+#pulseaudio,
+#network,
+#power-profiles-daemon,
+#battery {
+    background: transparent;
+    padding: 4px 12px;
+    margin: 6px 2px;
+    border: 4px solid rgba(94, 94, 94, 0.75);
+    color: #aeaeae;
+    transition: color 0.15s ease;
+}
+
+/* Turn the whole group white when hovering any part of it */
+#cpu:hover, #memory:hover,
+#cpu:hover ~ #memory, #memory:hover ~ #cpu,
+#clock:hover,
+#pulseaudio:hover, #network:hover, #power-profiles-daemon:hover, #battery:hover,
+#pulseaudio:hover ~ #network, #pulseaudio:hover ~ #power-profiles-daemon, #pulseaudio:hover ~ #battery,
+#network:hover ~ #pulseaudio, #network:hover ~ #power-profiles-daemon, #network:hover ~ #battery,
+#power-profiles-daemon:hover ~ #pulseaudio, #power-profiles-daemon:hover ~ #network, #power-profiles-daemon:hover ~ #battery,
+#battery:hover ~ #pulseaudio, #battery:hover ~ #network, #battery:hover ~ #power-profiles-daemon {
+    border-color: rgba(255, 255, 255, 0.75);
+    color: #ffffff;
+}
+
+/* Round the outer edges of the leftmost and rightmost modules to form the pill shape */
+#cpu {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+#memory {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#clock {
+    border-radius: 12px;
+}
+
+#pulseaudio {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+#battery {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#clock {
+    font-weight: 600;
+}
+
+#battery.warning {
+    color: #C2410C;
+}
+
+#battery.critical {
+    color: #C2410C;
+    border-color: #C2410C;
+}
+
+#cpu {
+    margin-left: 12px;
+}
+
+#battery {
+    margin-right: 12px;
+}
